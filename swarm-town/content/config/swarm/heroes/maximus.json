@@ -1,5 +1,5 @@
 {
-	"maximus" : 
+	"swarmMaximus" : 
 	{
 		"class" : "queen",
 		"female" : false,
@@ -36,6 +36,22 @@
 		],
 		
 		"specialty" : {
+			"bonuses" : {
+				"tactics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "BEFORE_BATTLE_REPOSITION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				},
+				"tactics_block" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "BEFORE_BATTLE_REPOSITION_BLOCK",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
 		}
 	}
 }

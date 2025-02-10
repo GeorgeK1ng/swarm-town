@@ -3,15 +3,16 @@
 	"description" : "Zerg Town",
 	"author" : "",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.11",
+	"version" : "0.12",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.4"
+		"min" : "1.6"
 	},
 	"changelog" :
 	{
-		"0.11"   : [ "Updated to vcmi-1.4 mod" ],
+		"0.16"   : [ "Updated to vcmi-1.6 format", "Added commander", "Added chinese translation", "Added stack experience system" ],
+		"0.11"   : [ "Updated to vcmi-1.4 format" ],
 		"0.10"   : [ "Initial release" ]
 	},
 	"chinese" : {
@@ -46,7 +47,9 @@
 		"config/swarm/creatures/lock1.json",
 		"config/swarm/creatures/lock2.json",
 		"config/swarm/creatures/gronn1.json",
-		"config/swarm/creatures/gronn2.json"
+		"config/swarm/creatures/gronn2.json",
+		"config/swarm/creatures/larva_commander.json",
+		"config/swarm/creatures/stack_exp.json"
 	],
 	"heroClasses" :
 	[

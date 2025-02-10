@@ -11,7 +11,7 @@
 			}
 		},		
 		"mapObject" : { "templates" : { "default" : { "animation" : "swarm/hmapqueen" }}},
-		"commander" : "larva",		
+		"commander" : "larvaCommander",		
 		"faction" : "swarm",
 		"affinity" : "magic",
 		"primarySkills" :

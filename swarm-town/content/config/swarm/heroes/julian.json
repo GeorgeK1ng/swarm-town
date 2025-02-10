@@ -1,5 +1,5 @@
 {
-	"julian" :
+	"swarmJulian" :
 	{
 		"class" : "queen",
 		"female" : false,

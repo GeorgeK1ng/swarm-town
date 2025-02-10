@@ -1,5 +1,5 @@
 {
-	"horna" :
+	"swarmHorna" :
 	{
 		"class" : "queen",
 		"female" : false,

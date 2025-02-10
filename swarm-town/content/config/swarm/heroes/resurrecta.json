@@ -1,5 +1,5 @@
 {
-	"resurrecta" : 
+	"swarmResurrecta" : 
 	{
 		"class" : "queen",
 		"female" : true,
@@ -25,7 +25,7 @@
 
 		"spellbook" :
 		[
-			"iceBolt"
+			"resurrection"
 		],
 		"army" :
 		[

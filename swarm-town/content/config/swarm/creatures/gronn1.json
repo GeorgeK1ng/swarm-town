@@ -1,5 +1,5 @@
 {
-	"gronn1":
+	"swgronn1":
 	{
 		"name" :
 		{
@@ -41,7 +41,7 @@
 		"level" : 7,
 		"upgrades":
 		[
-			"gronn2"
+			"swgronn2"
 		],
 		"sound" :
 		{

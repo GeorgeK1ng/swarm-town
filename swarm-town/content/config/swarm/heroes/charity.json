@@ -1,5 +1,5 @@
 {
-	"charity" :
+	"swarmCharity" :
 	{
 		"class" : "queen",
 		"female" : true,

@@ -1,5 +1,5 @@
 {
-	"cistrict" :
+	"swarmCistrict" :
 	{
 		"class" : "queen",
 		"female" : true,
@@ -38,8 +38,12 @@
 		"skills" : 
 		[
 			{
-				"level" : "advanced",
+				"level" : "basic",
 				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
 			}
 		],
 		

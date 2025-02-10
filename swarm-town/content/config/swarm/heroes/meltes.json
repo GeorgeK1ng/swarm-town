@@ -1,5 +1,5 @@
 {
-	"meltes" :
+	"swarmMeltes" :
 	{
 		"class" : "queen",
 		"female" : false,

@@ -179,6 +179,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "crystal": 1 },
 					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
@@ -191,58 +192,98 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" : "ballista",
 					"id" : 16
 				},
 				"special1" :
 				{
-					"description" : "The Nydus Canal increases the * of any visiting hero for next battle by +*.",
+					"description" : "The Nydus Canal allow travels between Swarm towns containing The Nydus Canal. Destination town must be unoccupied.",
 					"name" : "Nydus Canal",
 					"cost" : {
-						"gold" : 1000
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 10000
 					},
+					"type" : "castleGate", 
 					"requires" : [ "resourceSilo" ],
 					"id" : 17
 				},
 				"special2" :
 				{
-					"description" : "The Sunken Colony *.",
+					"description" : "The Sunken Colony adds +2 to a gartison hero's attack skill when defending against a siege.",
 					"name" : "Sunken Colony",
 					"cost" : {
-						"gems" : 5,
 						"gold" : 1000
 					},
-					"requires" : [ "mageGuild1" ],
+					"requires" : [ "fort" ],
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"val": 2
+						}
+					],
 					"id" : 21
 				},
-                               "special3" :
+                "special3" :
 				{
 					"name" : "Infestation Web",
-					"description" : "The Infestation Web *.",
+					"description" : "The Infestation Web increase the Attack skill of any visiting hero by +1.",
 					"cost" :
 					{
-						"wood" : 20,
-						"gold" : 2000
+						"gold" : 1000
+					},
+					"requires" : [ "fort" ],
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.584",
+								"primary" : { "attack" : 1 }
+							}
+						]
 					},
 					"id" : 23
 				},
-                               "special4" :
+                "horde1" :
 				{
-					"description" : "The Nest increases weekly production of * by * per week.",
+					"description" : "The Nest increases weekly production of Larvae by 7 per week.",
 					"name" : "Nest",
+					"requires" : ["dwellingLvl1"],
 					"cost" :
 					{
-						"wood" : 20,
-						"gold" : 2000
+						"gold" : 1000
 					},
-					"id" : 22
-					
+					"id" : 24		
+				},
+				 "horde1Upgr" :
+				{
+					"description" : "The Upg. Nest increases weekly production of Drones by 7 per week.",
+					"name" : "Upg. Nest",
+					"requires" : ["allOf", ["horde1"], ["dwellingUpLvl1"] ],
+					"cost" :
+					{
+						"gold" : 1000
+					},
+					"id" : 25,
+					"mode" : "auto"
 				},
 				"grail" :
 				{
-					"description" : "grail.",
+					"description" : "The Grail increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases land movement of all allied heroes by +300.",
 					"name" : "Grail",
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+					"produce": { "gold": 5000 },
+					"bonuses": 
+					[ 
+						{
+							"type": "MOVEMENT",
+							"subtype" : "heroMovementLand", 
+							"val": 300, 
+							"propagator": "PLAYER_PROPAGATOR"
+						}
+					]
 				},
 				"dwellingLvl1" :
 				{

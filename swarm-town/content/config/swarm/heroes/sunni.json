@@ -1,5 +1,5 @@
 {
-	"sunni" : 
+	"swarmSunni" : 
 	{
 		"class" : "queen",
 		"female" : false,
@@ -35,7 +35,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "scouting"
 			}
 		],
 		
