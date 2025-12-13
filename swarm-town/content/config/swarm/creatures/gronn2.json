@@ -1,5 +1,5 @@
 {
-	"swgronn2":
+	"gronn2":
 	{
 		"name" :
 		{
@@ -58,8 +58,11 @@
 			},
 
 			"fearless" :
-                        {
-				"type" : "FEARLESS",
+            {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
 			"HPregenerate" : 
 			{

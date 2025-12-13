@@ -60,11 +60,11 @@
 		],
 		"sound" :
 		{
-			"attack" : "swarm/S205ATTK.wav",
-			"defend" : "swarm/S205DFND.wav",
-			"killed" : "swarm/S205KILL.wav",
-			"move"   : "swarm/S205MOVE.wav",
-			"wince"  : "swarm/S205WNCE.wav"
+			"attack" : "swarm/mutalisk_attack.wav",
+			"defend" : "swarm/mutalisk_defend.wav",
+			"killed" : "swarm/mutalisk_killed.wav",
+			"move"   : "swarm/mutalisk_move.wav",
+			"wince"  : "swarm/mutalisk_wince.wav"
 		},
 		"speed" : 9,
 		"abilities" :
@@ -72,10 +72,6 @@
 		       "flying" :
 			{
 				"type" : "FLYING"
-			},
-			   "canshoot" :
-			{
-				"type" : "SHOOTER"
 			}
 		}
 	}

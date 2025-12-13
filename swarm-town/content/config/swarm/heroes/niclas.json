@@ -1,5 +1,5 @@
 {
-	"swarmNiclas" :
+	"niclas" :
 	{
 		"class" : "queen",
 		"female" : false,
@@ -10,9 +10,9 @@
 			"biography" : "undetermined",
 			"specialty" :
 			{
-				"description" : "{Gem + 1}\r\n\r\nIncreases kingdom's income by 1 gem per day",
-				"tooltip" : "+1 Gem each day",
-				"name" : "+1 Gems"
+				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystals"
 			}
 		},
 		"images" :
@@ -43,8 +43,8 @@
 		
 		"specialty" : {
 			"bonuses" : {
-				"gems" : {
-					"subtype" : "resource.gems",
+				"crystal" : {
+					"subtype" : "crystal",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}

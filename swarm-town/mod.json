@@ -1,5 +1,5 @@
 {
-	"name" : "Swarm",
+	"name" : "Swarm2",
 	"description" : "Zerg Town",
 	"author" : "",
 	"contact" : "http://forum.vcmi.eu/index.php",
@@ -7,17 +7,17 @@
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.6"
+		"min" : "1.7"
 	},
 	"changelog" :
 	{
-		"0.16"   : [ "Updated to vcmi-1.6 format", "Added commander", "Added chinese translation", "Added stack experience system" ],
+		"0.12"   : [ "Updated to vcmi-1.7 format" ],
 		"0.11"   : [ "Updated to vcmi-1.4 format" ],
 		"0.10"   : [ "Initial release" ]
 	},
 	"chinese" : {
-		"name" : "虫群",
-		"description" : "异虫城镇",
+		"name" : "??",
+		"description" : "????",
 		"translations" : [
 			"translation/swarm/chinese.json"
 		]
@@ -46,10 +46,8 @@
 		"config/swarm/creatures/queen2.json",
 		"config/swarm/creatures/lock1.json",
 		"config/swarm/creatures/lock2.json",
-		"config/swarm/creatures/gronn1.json",
-		"config/swarm/creatures/gronn2.json",
-		"config/swarm/creatures/larva_commander.json",
-		"config/swarm/creatures/stack_exp.json"
+		"config/swarm/creatures/ultralisk1.json",
+		"config/swarm/creatures/ultralisk2.json"
 	],
 	"heroClasses" :
 	[

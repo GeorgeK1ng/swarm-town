@@ -1,0 +1,77 @@
+{
+	"ultralisk1":
+	{
+		"name" :
+		{
+			"plural" : "Ultralisks",
+			"singular" : "Ultralisk"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "swarm",
+		"aiValue" : 628,
+		"attack" : 21,
+		"cost" :
+		{
+			"gold" : 2750,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			"max" : 65,
+			"min" : 35
+		},
+		"defense" : 21,
+		"fightValue" : 4435,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/ultralisk1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/ultralisk1mini.def",
+			"iconSmall" : "swarm/iconsSmall/ultralisk1s.bmp",
+			"iconLarge" : "swarm/iconsBig/ultralisk1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 175,
+		"level" : 7,
+		"upgrades":
+		[
+			"ultralisk2"
+		],
+		"sound" :
+		{
+			"attack" : "swarm/Ultralisk_attack.wav",
+			"defend" : "swarm/Ultralisk_defend.wav",
+			"killed" : "swarm/Ultralisk_killed.wav",
+			"move" : "swarm/Ultralisk_move.wav",
+			"wince" : "swarm/Ultralisk_wince.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+
+		"nomorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+		"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+			},
+
+			"HPregenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 25
+			}
+		}
+	}
+}

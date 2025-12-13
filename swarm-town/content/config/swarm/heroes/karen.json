@@ -1,5 +1,5 @@
 {
-	"swarmKaren" : 
+	"karen" : 
 	{
 
 		"class" : "queen",
@@ -48,7 +48,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {
-					"subtype" : "resource.gold",
+					"subtype" : "gold",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 350
 				}

@@ -52,16 +52,18 @@
 			},				
 		},
 		"growth" : 9,
+		"doubleWide" : true,
 		"hitPoints" : 12,
         "level" : 2,
 		"shots" : 8,
 		"sound" :
 		{
-			"attack" : "swarm/worgatk.wav",
-			"defend" : "swarm/worgblk.wav",
-			"killed" : "swarm/worgdie.wav",
-			"move": "HGWRMOVE.wav",
-			"wince" : "swarm/worgblk.wav",
+			"attack" : "swarm/hydralisk_attack.wav",
+			"defend" : "swarm/hydralisk_defend.wav",
+			"killed" : "swarm/hydralisk_killed.wav",
+			"move": "NGRDMOVE.wav",
+			"shoot": "swarm/hydralisk_shoot.wav",
+			"wince" : "swarm/hydralisk_wince.wav",
 		},
 		"speed" : 5,
 		"abilities" :

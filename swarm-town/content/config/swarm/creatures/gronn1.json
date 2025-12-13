@@ -1,5 +1,5 @@
 {
-	"swgronn1":
+	"gronn1":
 	{
 		"name" :
 		{
@@ -41,7 +41,7 @@
 		"level" : 7,
 		"upgrades":
 		[
-			"swgronn2"
+			"gronn2"
 		],
 		"sound" :
 		{
@@ -61,9 +61,11 @@
 			},
 		"fearless" :
 			{
-				"type" : "FEARLESS"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
-
 			"HPregenerate" : 
 			{
 				"type" : "HP_REGENERATION",

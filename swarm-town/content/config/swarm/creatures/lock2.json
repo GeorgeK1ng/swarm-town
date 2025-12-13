@@ -1,5 +1,5 @@
 {
-	"swlock2":
+	"lock2":
 	{
 		"name" :
 		{
@@ -12,19 +12,19 @@
 			"min" : 3
 		},
 		"faction" : "swarm",
-		"aiValue" : 1800,
+		"aiValue" : 900,
 		"attack" : 32,
 		"cost" :
 		{
-			"gold" : 1000
+			"gold" : 400
 		},
 		"damage" :
 		{
-			"max" : 30,
-			"min" : 25
+			"max" : 15,
+			"min" : 9
 		},
 		"defense" : 14,
-		"fightValue" : 1500,
+		"fightValue" : 718,
 		"graphics" :
 		{
 			"animation" : "swarm/battle/lock2.def",
@@ -49,10 +49,10 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			},
 		},
-		"growth" : 2,
-		"hitPoints" : 60,
-		"level" : 6,
-		"shots" : 12,		
+		"growth" : 4,
+		"hitPoints" : 32,
+		"level" : 4,
+		"shots" : 10,		
 		"sound" :
 		{
 			"attack" : "swarm/orcatk.wav",
@@ -62,20 +62,12 @@
 			"wince"  : "swarm/orchit.wav",
 			"shoot"  : "MONKSHOT.wav"                      
 		},
-		"speed" : 9,
+		"speed" : 7,
 		"abilities" :
 		{
-            "canshoot" :
+                     "canshoot" :
 			{
 				"type" : "SHOOTER"
-			},
-			"noMeleePenalty":
-			{
-				"type": "NO_MELEE_PENALTY"
-			},
-			"freeShooting":
-			{
-				"type": "FREE_SHOOTING"
 			}
 		}
 	}

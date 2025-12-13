@@ -7,7 +7,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VVA" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
 					}
 				}
 			},
@@ -17,7 +17,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
 
 					}
 				}
@@ -28,7 +28,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "swarm/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
 			},
@@ -38,7 +38,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "BAV" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
 			},
@@ -49,40 +49,40 @@
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "BBA" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
 					}
 				}
 			},
 			"swDefilerMound" : {
 				"name" : "Defiler Mound",
-				"creatures" : [[ "swlock1" ]],
+				"creatures" : [[ "lock1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
 			},
 			"swUltraliskCavern" : {
 				"name" : "Ultralisk Cavern",
-				"creatures" : [[ "swgronn1" ]],
+				"creatures" : [[ "ultralisk1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "BBV", "VBA" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
 					}
 				}
 			},
 			"swInfestedCommandCenter" : {
 				"name" : "Infested Command Center",
-				"creatures" : [[ "swgronn1" ]],
+				"creatures" : [[ "ultralisk1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "swarm/adventure-map/dwelling-8.def",
-						"mask" : [ "VVV", "VVV", "VVA" ]
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAB" ]
 					}
 				}
 			}
