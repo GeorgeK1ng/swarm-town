@@ -16,8 +16,8 @@
 		"0.10"   : [ "Initial release" ]
 	},
 	"chinese" : {
-		"name" : "??",
-		"description" : "????",
+		"name" : "虫群",
+		"description" : "异虫城镇",
 		"translations" : [
 			"translation/swarm/chinese.json"
 		]
