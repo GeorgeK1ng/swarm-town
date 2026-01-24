@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Primal Queens",
-			"singular" : "Primal Queen"
+			"plural" : "Upgraded Queens",
+			"singular" : "Upgraded Queen"
 		},
 		"advMapAmount" :
 		{
@@ -12,41 +12,61 @@
 			"min" : 8
 		},
 		"faction" : "swarm",
-		"aiValue" : 728,
-		"attack" : 14,
+		"aiValue" : 800,
+		"attack" : 9,
 		"doubleWide" : true,		
 		"hasDoubleWeek" : true,
         "cost" : 
 		{
-			"gold" : 775
+			"gold" : 425
 		},
 		"damage" :
 		{
-			"max" : 18,
-			"min" : 15
+			"max" : 14,
+			"min" : 10
 		},
-		"defense" : 10,
-		"fightValue" : 1091,
+		"defense" : 12,
+		"fightValue" : 800,
 		"graphics" :
 		{
-			"animation" : "swarm/battle/queen1.def",
+			"animation" : "swarm/battle/queen2",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "swarm/map/queen1mini.def",
-			"iconSmall" : "swarm/iconsSmall/queen1s.bmp",
-			"iconLarge" : "swarm/iconsBig/queen1l.bmp",
+			"map" : "swarm/map/queen2mini",
+			"iconSmall" : "swarm/iconsSmall/queen2s.png",
+			"iconLarge" : "swarm/iconsBig/queen2l.png",
 			"timeBetweenFidgets" : 1,
 		},
 		"growth" : 3,
-		"hitPoints" : 60,
+		"hitPoints" : 65,
 		"level" : 5,
 		"sound" :
 		{
-			"attack" : "swarm/S204ATTK.wav",
-			"defend" : "swarm/S204DFND.wav",
-			"killed" : "swarm/S204KILL.wav",
-			"move"   : "swarm/S204MOVE.wav",
-			"wince"  : "swarm/S204WNCE.wav"
+			"attack" : "swarm/queen_attack.wav",
+			"defend" : "swarm/queen_defend.wav",
+			"killed" : "swarm/queen_killed.wav",
+			"move"   : "swarm/queen_move.wav",
+			"wince"  : "swarm/queen_wince.wav"    
 		},
-		"speed" : 6
+		"speed" : 5,
+		"abilities" :
+		{
+			"healLife":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 2
+			},
+			"healPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.cure",
+				"val" : 50
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 2
+			}
+		}
 	}
 }

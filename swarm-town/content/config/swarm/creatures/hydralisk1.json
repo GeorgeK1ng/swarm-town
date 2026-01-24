@@ -12,21 +12,20 @@
 			"min" : 16
 		},
 		"faction" : "swarm",
-		"aiValue" : 110,
-		"attack" : 5,
+		"aiValue" : 230,
+		"attack" : 9,
 		"hasDoubleWeek" : true,
                 "cost" :
 		{
-			"gold" : 110
+			"gold" : 200
 		},
 		"damage" :
 		{
 			"max" : 5,
-			"min" : 2
+			"min" : 3
 		},
 		"defense" : 5,
-		"fightValue" : 152,
-		"horde" : 6,
+		"fightValue" : 230,
 		"graphics" :
 		{
 			"animation" : "swarm/battle/hydralisk1.def",
@@ -52,11 +51,11 @@
 			},			
 		},
 
-		"growth" : 9,
+		"growth" : 7,
 		"doubleWide" : true,
-		"hitPoints" : 12,
-        "level" : 2,
-		"shots" : 7,
+		"hitPoints" : 15,
+        "level" : 3,
+		"shots" : 12,
 		"upgrades":
 		[
 			"hydralisk2"
@@ -70,12 +69,16 @@
 			"shoot": "swarm/hydralisk_shoot.wav",
 			"wince" : "swarm/hydralisk_wince.wav",
 		},
-		"speed" : 4,
+		"speed" : 5,
 		"abilities" :
 		{
-                     "canshoot" :
+            "canshoot" :
 			{
 				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
 			}
 		}
 	}

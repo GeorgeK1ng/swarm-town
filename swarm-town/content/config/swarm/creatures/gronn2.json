@@ -58,7 +58,7 @@
 			},
 
 			"fearless" :
-            {
+			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",

@@ -149,6 +149,7 @@
 				{
 					"description" : "The Beacon provides you with an additional +1 crystal each day.",
 					"name" : "Beacon",
+					"produce": { "crystal": 1 }, 
 					"cost" :
 					{
 						"ore" : 5,
@@ -213,7 +214,7 @@
 				},
 				"dwellingLvl1" :
 				{
-					"description" : "Spawning Pool allows you to recruit Larvae.",
+					"description" : "Spawning Pool allows you to recruit Zerglings.",
 					"name" : "Spawning Pool",
 					"cost" : {
 						"gold" : 1000,
@@ -224,7 +225,7 @@
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "Spore Colony allows you to recruit Zerglings.",
+					"description" : "Spore Colony allows you to recruit Roaches.",
 					"name" : "Spore Colony",
 					"cost" : {
 						"gold" : 1500,
@@ -262,7 +263,7 @@
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "Queens Lair allows you to recruit Stingers.",
+					"description" : "Queens Lair allows you to recruit Queens.",
 					"name" : "Queens Lair",
 					"cost" : {
 						"gold" : 3000,
@@ -274,8 +275,8 @@
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "Defiler Mound allows you to recruit Defilers.",
-					"name" : "Defiler Mound",
+					"description" : "Brutalisk Cavern allows you to recruit Brutalisks.",
+					"name" : "Brutalisk Cavern",
 					"cost" : {
 						"gold" : 4000,
 						"ore" : 5,
@@ -287,8 +288,8 @@
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "Ultralisk Cavern allows you to recruit Ultralisks.",
-					"name" : "Ultralisk Cavern",
+					"description" : "Defiler Mound allows you to recruit Queens of Blades.",
+					"name" : "Defiler Mound",
 					"cost" : {
 						"gold" : 10000,
 						"wood" : 10,
@@ -302,7 +303,7 @@
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "Upg. Spawning Pool allows you to recruit Drones.",
+					"description" : "Upg. Spawning Pool allows you to recruit Winged Zerglings.",
 					"name" : "Upg. Spawning Pool",
 					"cost" : {
 						"gold" : 1000,
@@ -313,7 +314,7 @@
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "Upg. Spore Colony allows you to recruit Primal Zerglings.",
+					"description" : "Upg. Spore Colony allows you to recruit Ravagers.",
 					"name" : "Upg. Spore Colony",
 					"cost" : {
 						"gold" : 1500,
@@ -336,7 +337,7 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "Upg. Evolution Chamber allows you to recruit Primal Mutalisks.",
+					"description" : "Upg. Evolution Chamber allows you to recruit Upgraded Mutalisks.",
 					"name" : "Upg. Evolution Chamber",
 					"cost" : {
 						"mercury" : 5,
@@ -349,7 +350,7 @@
 				},
 				"dwellingUpLvl5" :
 				{
-					"description" : "Upg. Queens Lair allows you to recruit .",
+					"description" : "Upg. Queens Lair allows you to recruit Upgraded Queens.",
 					"name" : "Upg. Queens Lair",
 					"cost" : {
 						"ore" : 5,
@@ -362,8 +363,8 @@
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "Upg. Defiler Mound allows you to recruit Defilers.",
-					"name" : "Upg. Defiler Mound",
+					"description" : "Upg. Brutalisk Cavern allows you to recruit Hunterlings.",
+					"name" : "Upg. Brutalisk Cavern",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
@@ -375,18 +376,6 @@
 					},
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
-					"description" : "Upg. Ultralisk Cavern allows you to recruit Primal Ultralisks.",
-					"name" : "Upg. Ultralisk Cavern",
-					"cost" : {
-						"ore" : 10,
-						"gold" : 25000,
-						"wood" : 10,
-						"sulfur" : 30
-					},
-					"upgrades" : "dwellingLvl7"
-				}
 			}
 		}
 	}

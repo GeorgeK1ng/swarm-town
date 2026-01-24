@@ -6,12 +6,12 @@
 		{
 			"battle" : 
 			{
-				"female" : "swarm/battlequeen.def",
-				"male"   : "swarm/battlequeen.def"
+				"female" : "swarm/CH07.def",
+				"male"   : "swarm/CH07.def"
 			}
 		},		
-		"mapObject" : { "templates" : { "default" : { "animation" : "swarm/hmapqueen" }}},
-		"commander" : "larva",		
+		"mapObject" : { "templates" : { "default" : { "animation" : "swarm/AH07_.def" }}},
+		"commander" : "zergling1",		
 		"faction" : "swarm",
 		"affinity" : "magic",
 		"primarySkills" :

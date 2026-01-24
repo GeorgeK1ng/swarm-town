@@ -10,7 +10,7 @@
 			"specialty" :
 			{
 				"description" : "{Grunt Soldiers and Foot Soldiers}\r\n\r\nIncreases Speed of any Grunt Soldiers or Foot Soldiers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
-				"tooltip" : "Creature Bonus: zerglings",
+				"tooltip" : "Creature Bonus: roaches",
 				"name" : "zerglings"
 			}
 		},
@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "zergling", "min" : 4, "max" : 9 },
-			{ "creature" : "zergling", "min" : 4, "max" : 7 },
-			{ "creature" : "zergling", "min" : 4, "max" : 6}
+			{ "creature" : "roach1", "min" : 4, "max" : 9 },
+			{ "creature" : "roach1", "min" : 4, "max" : 7 },
+			{ "creature" : "roach1", "min" : 4, "max" : 6}
 		],
 
 		"skills" :
@@ -46,7 +46,7 @@
 		],
 		
 		"specialty" : {
-			"creature" : "zergling"
+			"creature" : "roach1"
 		}
 	}
 }

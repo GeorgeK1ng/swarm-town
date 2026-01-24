@@ -1,0 +1,56 @@
+{
+	"brutalisk1":
+	{
+		"name" :
+		{
+			"plural" : "Brutalisks",
+			"singular" : "Brutalisk"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "swarm",
+		"aiValue" : 1600,
+		"attack" : 15,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 900
+			
+		},
+		"damage" :
+		{
+			"max" : 22,
+			"min" : 15
+		},
+		"defense" : 14,
+		"fightValue" : 1600,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/brutalisk1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/brutalisk1mini.def",
+			"iconSmall" : "swarm/iconsSmall/brutalisk1s.bmp",
+			"iconLarge" : "swarm/iconsBig/brutalisk1l.bmp",
+			"timeBetweenFidgets" : 1
+			},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		"upgrades":
+		[
+			"hunterling2"
+		],		
+		"sound" :
+		{
+			"attack" : "swarm/brutalisk_attack.wav",
+			"defend" : "swarm/brutalisk_defend.wav",
+			"killed" : "swarm/brutalisk_killed.wav",
+			"move"   : "swarm/brutalisk_move.wav",
+			"wince"  : "swarm/brutalisk_wince.wav"
+		},
+		"speed" : 7,
+	}
+}

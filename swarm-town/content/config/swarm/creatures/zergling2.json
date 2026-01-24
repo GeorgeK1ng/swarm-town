@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Primal Zerglings",
-			"singular" : "Primal Zergling"
+			"plural" : "Winged Zerglings",
+			"singular" : "Winged Zergling"
 		},
 		"advMapAmount" :
 		{
@@ -12,41 +12,40 @@
 			"min" : 12
 		},
 		"faction" : "swarm",
-		"aiValue" : 234,
-		"attack" : 11,
+		"aiValue" : 90,
+		"attack" : 3,
 		"hasDoubleWeek" : true,
         "cost" :
 		{
-			"gold" : 275
+			"gold" : 30
 		},
 		"damage" :
 		{
-			"max" : 7,
-			"min" : 4 
+			"max" : 3,
+			"min" : 1 
 		},
-		"defense" : 6,
-		"fightValue" : 316,
+		"defense" : 2,
+		"fightValue" : 90,
 		"graphics" :
 		{
-			"animation" : "swarm/battle/zergling2.def",
+			"animation" : "swarm/battle/zergling2",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "swarm/map/zergling2mini.def",
-			"iconSmall" : "swarm/iconsSmall/zergling2s.bmp",
-			"iconLarge" : "swarm/iconsBig/zergling2l.bmp",
+			"map" : "swarm/map/zergling2map",
+			"iconSmall" : "swarm/iconsSmall/zergling2s.png",
+			"iconLarge" : "swarm/iconsBig/zergling2l.png",
 			"timeBetweenFidgets" : 1,
 		},	
-		"growth" : 7,
-		"hitPoints" : 20,
-		"level" : 3,
+		"growth" : 20,
+		"hitPoints" : 3,
+		"level" : 1,
 		"sound" :
 		{
-			"attack" : "swarm/trollatk.wav",
-			"defend" : "swarm/trollhit.wav",
-			"killed" : "swarm/trolldie.wav",
-			"move"   : "OORCMOVE.wav",
-			"wince"  : "swarm/trollhit.wav",
-			"shoot"  : "OORCSHOT.wav"
+			"attack" : "swarm/zergling_attack.wav",
+			"defend" : "swarm/zergling_defend.wav",
+			"killed" : "swarm/zergling_death.wav",
+			"move"   : "swarm/zergling_move.wav",
+			"wince"  : "swarm/zergling_wince.wav"
 		},
-		"speed" : 8
+		"speed" : 9
 	}
 }

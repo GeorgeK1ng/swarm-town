@@ -29,8 +29,8 @@
 		],
 		"army" :
 		[
-			{ "creature" : "larva", "min" : 10, "max" : 15 },
-			{ "creature" : "zergling", "min" : 6, "max" : 9 },
+			{ "creature" : "zergling1", "min" : 10, "max" : 15 },
+			{ "creature" : "roach1", "min" : 6, "max" : 9 },
 			{ "creature" : "hydralisk1", "min" : 4, "max" : 6}
 		],
 		"skills" :
@@ -48,7 +48,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"ressurection" : {
-					"subtype" : "resurrection",
+					"subtype" : "spell.resurrection",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

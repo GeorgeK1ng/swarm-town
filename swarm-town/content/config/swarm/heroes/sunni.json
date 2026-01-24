@@ -23,8 +23,8 @@
 		},
 		"army" :
 		[
-			{ "creature" : "larva", "min" : 10, "max" : 15 },
-			{ "creature" : "zergling", "min" : 6, "max" : 9 },
+			{ "creature" : "zergling1", "min" : 10, "max" : 15 },
+			{ "creature" : "roach1", "min" : 6, "max" : 9 },
 			{ "creature" : "hydralisk1", "min" : 4, "max" : 6}
 		],
 		"skills" :
@@ -35,12 +35,20 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "scouting"
+				"skill" : "artillery"
 			}
 		],
 		
 		"specialty" : {
-			"secondary" : "scouting"
+			"bonuses" : {
+				"scouting" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SIGHT_RADIUS",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
 		}
 	}
 }

@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "larva", "min" : 10, "max" : 15 },
-			{ "creature" : "larva", "min" : 8, "max" : 9 },
-			{ "creature" : "larva", "min" : 4, "max" : 6}
+			{ "creature" : "zergling1", "min" : 10, "max" : 15 },
+			{ "creature" : "zergling1", "min" : 8, "max" : 9 },
+			{ "creature" : "zergling1", "min" : 4, "max" : 6}
 		],
 
 		"skills" :
@@ -46,7 +46,7 @@
 		],
 		
 		"specialty" : {
-			"creature" : "larva"
+			"creature" : "zergling1"
 		}
 	}
 }

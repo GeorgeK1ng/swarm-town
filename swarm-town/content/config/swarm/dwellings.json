@@ -3,21 +3,21 @@
 		"types" : {
 			"swSpawningPool" : {
 				"name" : "Spawning Pool",
-				"creatures" : [[ "larva" ]],
+				"creatures" : [[ "zergling1" ]],
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-1.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
+						"animation" : "swarm/adventure-map/dwe1sp",
+						"mask" : [ "VBB", "VAB" ]
 					}
 				}
 			},
 			"swSporeColony" : {
-				"name" : "Spore Colony",
-				"creatures" : [[ "zergling" ]],
+				"name" : "Roach Warren",
+				"creatures" : [[ "roach1" ]],
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-2.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
+						"animation" : "swarm/adventure-map/dwel2roach",
+						"mask" : [ "VVV", "VBV", "VBA" ]
 
 					}
 				}
@@ -27,18 +27,18 @@
 				"creatures" : [[ "hydralisk1" ]],
 				"templates" : {
 					"default" : {	
-						"animation" : "swarm/adventure-map/dwelling-3.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"animation" : "swarm/adventure-map/dwel3hyd",
+						"mask" : [ "VVVV", "VBBV", "VBAV" ]
 					}
 				}
 			},
 			"swEvolutionChamber" : {
-				"name" : "Evolution Chamber",
+				"name" : "Spire",
 				"creatures" : [[ "mutalisk1" ]],
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-4.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"animation" : "swarm/adventure-map/dwel4spire",
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			},
@@ -48,41 +48,30 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
+						"animation" : "swarm/adventure-map/dwel5queen",
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
 			"swDefilerMound" : {
-				"name" : "Defiler Mound",
-				"creatures" : [[ "lock1" ]],
+				"name" : "Brutalisk Cavern",
+				"creatures" : [[ "brutalisk1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-6.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+						"animation" : "swarm/adventure-map/dwel6ultra.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			},
 			"swUltraliskCavern" : {
-				"name" : "Ultralisk Cavern",
-				"creatures" : [[ "ultralisk1" ]],
+				"name" : "Egg",
+				"creatures" : [[ "kerrigan1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-7.def",
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVBA" ]
-					}
-				}
-			},
-			"swInfestedCommandCenter" : {
-				"name" : "Infested Command Center",
-				"creatures" : [[ "ultralisk1" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "swarm/adventure-map/dwelling-8.def",
-						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAB" ]
+						"animation" : "swarm/adventure-map/dwel7egg",
+						"mask" : [ "VVV", "VBV", "VBA" ]
 					}
 				}
 			}

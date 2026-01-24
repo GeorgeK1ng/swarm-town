@@ -1,0 +1,142 @@
+{
+	"corrosiveBile" : {
+		"animation" : {
+			"hit":[ {"verticalPosition":"bottom"}, "swarm/spells/bilehit.json" ]
+		},
+
+		"flags" : {
+			"damage" : true,
+
+			"negative" : true
+		},
+		"defaultGainChance" : 0,
+		"graphics" : {
+			"iconEffect" : "swarm/spells/corrosiveBileEffect.bmp"
+		},
+
+		"level" : 0,
+
+		"levels" : {
+			"advanced" : {
+				
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+
+				"cost" : 1,
+
+				"description" : "{Advanced Corrosive Bile}\n\nLaunch a missile at the target location, dealing damage to all units in the area upon impact.\n",
+
+				"power" : 30,
+
+				"range" : "0,1",
+
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+
+				"range" : "0,1",
+
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+
+			"basic" : {
+
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+
+				"cost" : 1,
+
+				"description" : "{Basic Corrosive Bile}\n\nLaunch a missile at the target location, dealing damage to all units in the area upon impact.\n",
+
+				"power" : 15,
+
+				"range" : "0,1",
+
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+
+			"expert" : {
+
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+
+				"cost" : 1,
+
+				"description" : "{Expert Corrosive Bile}\n\nLaunch a missile at the target location, dealing damage to all units in the area upon impact.\n",
+
+				"power" : 60,
+
+				"range" : "0,1",
+
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+
+			"none" : {
+
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+
+				"cost" : 1,
+
+				"description" : "{Corrosive Bile}\n\nLaunch a missile at the target location, dealing damage to all units in the area upon impact.\n",
+
+				"power" : 15,
+
+				"range" : "0,1",
+
+				"targetModifier" : {
+					"smart" : false
+				}
+			}
+		},
+
+		"name" : "Corrosive Bile",
+
+		"power" : 11,
+
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+
+		"sounds" : {
+			"cast" : "swarm/CorrosiveBileHit.wav"
+		},
+
+		"targetCondition" : {
+			"noneOf" : {}
+		},
+
+		"targetType" : "LOCATION",
+
+		"type" : "combat"
+	}
+}

@@ -33,15 +33,14 @@
 				"dwellingLvl3" :    { "animation" : "swarm/town-screen/buildings/hydra.def",  	"x" : 0, "y" : 0, "z" : 3,         "border" : "swarm/town-screen/buildings-border/hydrab.bmp",   "area" : "swarm/town-screen/buildings-area/hydraa.bmp" },
 				"dwellingLvl4" :    { "animation" : "swarm/town-screen/buildings/evo.def", 	    "x" : 0, "y" : 0, "z" : 4,     "border" : "swarm/town-screen/buildings-border/evob.bmp",     "area" : "swarm/town-screen/buildings-area/evoa.bmp" },
 				"dwellingLvl5" :    { "animation" : "swarm/town-screen/buildings/queen.def",  	"x" : 0, "y" : 0, "z" : 4,         "border" : "swarm/town-screen/buildings-border/queenb.bmp",   "area" : "swarm/town-screen/buildings-area/queena.bmp" },
-				"dwellingLvl6" :    { "animation" : "swarm/town-screen/buildings/def.def",    	"x" : 0, "y" : 0, "z" : 9,         "border" : "swarm/town-screen/buildings-border/defb.bmp",   	 "area" : "swarm/town-screen/buildings-area/defa.bmp" },
-				"dwellingLvl7" :    { "animation" : "swarm/town-screen/buildings/ultra.def",  	"x" : 0, "y" : 0, "z" : 1,         "border" : "swarm/town-screen/buildings-border/ultrab.bmp",   "area" : "swarm/town-screen/buildings-area/ultraa.bmp" },
+				"dwellingLvl6" :    { "animation" : "swarm/town-screen/buildings/ultra.def",  	"x" : 0, "y" : 0, "z" : 1,         "border" : "swarm/town-screen/buildings-border/ultrab.bmp",   "area" : "swarm/town-screen/buildings-area/ultraa.bmp" },
+				"dwellingLvl7" :    { "animation" : "swarm/town-screen/buildings/def.def",    	"x" : 0, "y" : 0, "z" : 9,         "border" : "swarm/town-screen/buildings-border/defb.bmp",   	 "area" : "swarm/town-screen/buildings-area/defa.bmp" },
 				"dwellingUpLvl1" :  { "animation" : "swarm/town-screen/buildings/pool2.def",  	"x" : 0, "y" : 0, "z" : 4,         "border" : "swarm/town-screen/buildings-border/pool2b.bmp", 	 "area" : "swarm/town-screen/buildings-area/pool2a.bmp" },
 				"dwellingUpLvl2" :  { "animation" : "swarm/town-screen/buildings/spore2.def",    "x" : 0, "y" : 0, "z" : 5,        "border" : "swarm/town-screen/buildings-border/spore2b.bmp",  "area" : "swarm/town-screen/buildings-area/spore2a.bmp" },
 				"dwellingUpLvl3" :  { "animation" : "swarm/town-screen/buildings/hydra2.def",  	"x" : 0, "y" : 0, "z" : 3,         "border" : "swarm/town-screen/buildings-border/hydra2b.bmp",	 "area" : "swarm/town-screen/buildings-area/hydra2a.bmp" },
 				"dwellingUpLvl4" :  { "animation" : "swarm/town-screen/buildings/evo2.def",   	"x" : 0, "y" : 0, "z" : 4,         "border" : "swarm/town-screen/buildings-border/evo2b.bmp", 	 "area" : "swarm/town-screen/buildings-area/evo2a.bmp" },
 				"dwellingUpLvl5" :  { "animation" : "swarm/town-screen/buildings/queen2.def",  	"x" : 0, "y" : 0, "z" : 4,         "border" : "swarm/town-screen/buildings-border/queen2b.bmp",  "area" : "swarm/town-screen/buildings-area/queen2a.bmp" },
-				"dwellingUpLvl6" :  { "animation" : "swarm/town-screen/buildings/def.def",    	"x" : 0, "y" : 0, "z" : 9,         "border" : "swarm/town-screen/buildings-border/defb.bmp",     "area" : "swarm/town-screen/buildings-area/defa.bmp" },
-				"dwellingUpLvl7" :  { "animation" : "swarm/town-screen/buildings/ultra2.def",  	"x" : 0, "y" : 0, "z" : 1,         "border" : "swarm/town-screen/buildings-border/ultra2b.bmp",  "area" : "swarm/town-screen/buildings-area/ultra2a.bmp" },
+				"dwellingUpLvl6" :  { "animation" : "swarm/town-screen/buildings/ultra2.def",  	"x" : 0, "y" : 0, "z" : 1,         "border" : "swarm/town-screen/buildings-border/ultra2b.bmp",  "area" : "swarm/town-screen/buildings-area/ultra2a.bmp" },
 			}
 		}
 	}
