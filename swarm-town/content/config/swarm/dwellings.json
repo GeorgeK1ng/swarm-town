@@ -6,8 +6,8 @@
 				"creatures" : [[ "zergling1" ]],
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwe1sp",
-						"mask" : [ "VBB", "VAB" ]
+						"animation" : "swarm/adventure-map/dwellings-1",
+						"mask" : [ "VVV","VBB", "VBA" ]
 					}
 				}
 			},
@@ -16,8 +16,8 @@
 				"creatures" : [[ "roach1" ]],
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwel2roach",
-						"mask" : [ "VVV", "VBV", "VBA" ]
+						"animation" : "swarm/adventure-map/dwellings-2",
+						"mask" : [ "VVV", "VBB", "VBA" ]
 
 					}
 				}
@@ -27,8 +27,8 @@
 				"creatures" : [[ "hydralisk1" ]],
 				"templates" : {
 					"default" : {	
-						"animation" : "swarm/adventure-map/dwel3hyd",
-						"mask" : [ "VVVV", "VBBV", "VBAV" ]
+						"animation" : "swarm/adventure-map/dwellings-3",
+						"mask" : [ "VVV", "VBB", "BBA" ]
 					}
 				}
 			},
@@ -37,7 +37,7 @@
 				"creatures" : [[ "mutalisk1" ]],
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwel4spire",
+						"animation" : "swarm/adventure-map/dwellings-4",
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
@@ -48,7 +48,7 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwel5queen",
+						"animation" : "swarm/adventure-map/dwellings-5",
 						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
@@ -59,8 +59,8 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwel6ultra.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"animation" : "swarm/adventure-map/dwellings-6.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -70,8 +70,8 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "swarm/adventure-map/dwel7egg",
-						"mask" : [ "VVV", "VBV", "VBA" ]
+						"animation" : "swarm/adventure-map/dwellings-7",
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			}

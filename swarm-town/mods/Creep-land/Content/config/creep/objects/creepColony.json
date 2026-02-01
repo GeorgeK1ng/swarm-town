@@ -1,0 +1,86 @@
+{
+	"creepColony" : {
+		"handler" : "configurable",
+		"name" : "Creep colony",
+		"base" : {
+			"sounds" : {
+				"visit" : [
+					"STORE"
+				]
+			}
+		},
+		"types" : {
+			"creepColony" : {
+				"name" : "Creep colony",
+				"description" : "\nReduces movement cost on creeps down to 75% until the end of the week.\n",
+				"aiValue" : 3000,
+				"rmg" : {
+					"value"		: 200,
+					"rarity" 	: 40,
+					"zoneLimit" : 1
+				},
+				"onVisitedMessage" : "{Creep colony}\n\n\"Hey, that's my tent. Better be sure it's not my fault we're running in circles,\" the creepColony shrugs.",
+				"visitMode" : "bonus",
+				"rewards" : [
+					{
+						"message" : "{Creep colony}\n\n\"I know these creeps like the back of my hand. Even if I haven't been somewhere, I'll figure out how to find the way. I suppose I could tag along with you for a week if you need a hand,\" says the man in this tent.",
+						"bonuses" : [
+							{
+								"type" : "ROUGH_TERRAIN_DISCOUNT",
+								"val" : 50,
+								"duration" : "ONE_WEEK",
+								"limiters" : [
+									{
+										"type" : "TERRAIN_LIMITER",
+										"terrain" : "creep"
+									}
+								]
+							},
+							{
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : -25,
+								"duration" : "ONE_WEEK",
+								"valueType" : "BASE_NUMBER",
+								"limiters" : [
+									{
+										"type" : "TERRAIN_LIMITER",
+										"terrain" : "creep"
+									}
+								],
+							},
+							{
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : 75,
+								"duration" : "ONE_WEEK",
+								"valueType" : "INDEPENDENT_MAX",
+								"limiters" : [
+									{
+										"type" : "TERRAIN_LIMITER",
+										"terrain" : "creep"
+									}
+								]
+							}
+						]
+					}
+				],
+				"templates" : {
+					"avstrblz" : {
+						"animation" : "creep/objects/CreepColony/Creep colony",
+						"mask" : [
+							"VV",
+							"BA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"creep"
+						]
+					}
+				}
+			}
+		}
+	}
+}

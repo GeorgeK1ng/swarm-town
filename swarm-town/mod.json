@@ -3,7 +3,7 @@
 	"description" : "Zerg Town based on Blizzard's Starcraft game.",
 	"author" : "Runawayq, acidchalk, zeryss. Assets by Blizzard Entertainment.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.13",
+	"version" : "0.2",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
 	{
+		"0.20"   : [ "Added native terrain" ]
 		"0.13"   : [ "Line-up refreshing by Runawayq" ],
 		"0.12"   : [ "Updated to vcmi-1.7 format" ],
 		"0.11"   : [ "Updated to vcmi-1.4 format" ],
@@ -52,32 +53,35 @@
 	"heroClasses" :
 	[
 
-		"config/swarm/classes/queen.json"
+		"config/swarm/classes/queen.json",
+		"config/swarm/classes/overseer.json"
 
 	],
 
 	"heroes" :
 	[
-		"config/swarm/heroes/charity.json",
-	    "config/swarm/heroes/cistrict.json",
-		"config/swarm/heroes/julian.json",
-		"config/swarm/heroes/karen.json",
-		"config/swarm/heroes/kastore.json",
-		"config/swarm/heroes/leane.json",
-		"config/swarm/heroes/maximus.json",
-		"config/swarm/heroes/meltes.json",
-		"config/swarm/heroes/minore.json",
-		"config/swarm/heroes/niclas.json",
-		"config/swarm/heroes/rengist.json",
-		"config/swarm/heroes/resurrecta.json",
-		"config/swarm/heroes/seprinteer.json",
-		"config/swarm/heroes/singhel.json",
-		"config/swarm/heroes/sunni.json",	
-		"config/swarm/heroes/tarkin.json"
+		"config/swarm/heroes/areks.json",
+	    "config/swarm/heroes/bortex.json",
+		"config/swarm/heroes/coreks.json",
+		"config/swarm/heroes/eltriks.json",
+		"config/swarm/heroes/gehs.json",
+		"config/swarm/heroes/gorn.json",
+		"config/swarm/heroes/izsha.json",
+		"config/swarm/heroes/kerrigan.json",
+		"config/swarm/heroes/krips.json",
+		"config/swarm/heroes/morex.json",
+		"config/swarm/heroes/otrin.json",
+		"config/swarm/heroes/stukov.json",
+		"config/swarm/heroes/tister.json",
+		"config/swarm/heroes/trokin.json",
+		"config/swarm/heroes/wertex.json",
+		"config/swarm/heroes/zagara.json",	
+		"config/swarm/heroes/zasz.json"
 	],
 	"objects" :
 	[
 		"config/swarm/dwellings.json"
+		
 	],
 	
 	"spells" :

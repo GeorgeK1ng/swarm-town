@@ -1,0 +1,16 @@
+{
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"CreepCave" : {
+						"animation" :  "creep/objects/gates/CreepCave",   
+						"visitableFrom" : ["---", "+++", "+++"],
+						"mask" : ["VVV","VBB", "VBA"],
+						"allowedTerrains" : ["creep"]
+					}
+				}
+			}
+		}
+	}
+}

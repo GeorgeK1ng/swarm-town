@@ -1,0 +1,78 @@
+{
+	"core:mine" : {
+		"types" : {
+			"sawmill" : {
+				"templates" : {
+					"creepSawmill01" : {
+						"animation" : "creep/special/mines/creLanSaw",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVVVV", "VBBBB", "VBBAB"],
+						"allowedTerrains" : ["creep"]
+					}
+				}
+			},
+			"alchemistLab" : {
+				"templates" : {
+					"creepLab01" : {
+						"animation" : "creep/special/mines/creLanAlcLab",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "BAB"],
+						"allowedTerrains" : ["creep"]
+					}
+				}
+			},
+			"orePit" : {
+				"templates" : {
+					"creepOre01" : {
+						"animation" : "creep/special/mines/creLanOrePit",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["BBB", "BAB"],
+						"allowedTerrains" : ["creep"]
+					}
+				}
+			},
+			"sulfurDune" : {
+				"templates" : {
+					"creepSulfurDune01" : {
+						"animation" : "creep/special/mines/creLanSulDun",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "BAB"],
+						"allowedTerrains" : ["creep"
+						]
+					}
+				}
+			},
+			"crystalCavern" : {
+				"templates" : {
+					"creepCrystalCavern01" : {
+						"animation" : "creep/special/mines/creLanCryCav",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["BBB", "BAB"],
+						"allowedTerrains" : ["creep"
+						]
+					}
+				}
+			},
+			"gemPond" : {
+				"templates" : {
+					"creepGempond01" : {
+						"animation" : "creep/special/mines/creLanGenPon",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["BBB", "BAB"],
+						"allowedTerrains" : ["creep"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates" : {
+					"creepGoldmine01" : {
+						"animation" : "creep/special/mines/creLanGolMin",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["BBB", "BAB"],
+						"allowedTerrains" : ["creep"]
+					}
+				}
+			}
+		}
+	}
+}

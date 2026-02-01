@@ -12,6 +12,7 @@
 			"min" : 12
 		},
 		"faction" : "swarm",
+		"horde" : 10,
 		"aiValue" : 90,
 		"attack" : 3,
 		"hasDoubleWeek" : true,

@@ -7,8 +7,8 @@
 			{
 				"mageGuild1" :
 				{
-					"description" : "Entering the Spire will allow a visiting hero to learn the spells kept within.",
-					"name" : "Spire Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
 					"cost" :
 					{
 						"wood" : 5,
@@ -18,8 +18,8 @@
 				},
 				"mageGuild2" :
 				{
-					"description" : "Entering the Spire will allow a visiting hero to learn the spells kept within.",
-					"name" : "Spire Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
 					"cost" :
 					{
 						"wood" : 5,
@@ -33,8 +33,8 @@
 				},
 				"mageGuild3" :
 				{
-					"description" : "Entering the Spire will allow a visiting hero to learn the spells kept within.",
-					"name" : "Spire Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
 					"cost" :
 					{
 						"wood" : 5,
@@ -48,8 +48,8 @@
 				},
 				"mageGuild4" : 
 				{
-					"description" : "Entering the Spire will allow a visiting hero to learn the spells kept within.",
-					"name" : "Spire Level 4",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
 					"cost" :
 					{
 						"wood" : 5,
@@ -63,8 +63,8 @@
 				},
 				"tavern" :
 				{
-					"name" : "Creep Colony",
-					"description" : "The Creep Colony increases morale for troops defending the city.",
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" :
 					{
 						"wood" : 5,
@@ -73,8 +73,8 @@
 				},
 				"fort" :
 				{
-					"name" : "Hatchery",
-					"description" : "The Hatchery provides your town with defensive walls.",
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" :
 					{
 						"wood" : 20,
@@ -84,8 +84,8 @@
 				},
 				"citadel" :
 				{
-					"name" : "Lair",
-					"description" : "Including a 50% increase to base creature growth, the Lair adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" :
 					{
 						"ore" : 5,
@@ -94,8 +94,8 @@
 				},
 				"castle" :
 				{
-					"name" : "Hive",
-					"description" : "The Hive adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" :
 					{
 						"wood" : 10,
@@ -105,13 +105,13 @@
 				},
 				"villageHall" :
 				{
-					"name" : "Young Overmind",
-					"description" : "The Young Overmind allows you to purchase town structures and earns your kingdom 500 gold per day."
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" :
 				{
-					"name" : "Overmind Cocoon",
-					"description" : "The Overmind Cocoon allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" :
 					{
 						"gold" : 2500
@@ -119,8 +119,8 @@
 				},
 				"cityHall" :
 				{
-					"name" : "Overmind",
-					"description" : "The Overmind allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" :
 					{
 						"gold" : 5000
@@ -128,8 +128,8 @@
 				},
 				"capitol" :
 				{
-					"name" : "Capitol Overmind",
-					"description" : "The Capitol Overmind earns your kingdom 4000 gold per day.",
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" :
 					{
 						"gold" : 10000
@@ -137,8 +137,8 @@
 				},
 				"marketplace" :
 				{
-					"name" : "Cerebrate",
-					"description" : "With the Cerebrate, you can buy and sell resources (exchange rates increase with each Cerebrate you own).",
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Cerebrate you own).",
 					"cost" :
 					{
 						"wood" : 5,
@@ -147,9 +147,8 @@
 				},
 				"resourceSilo" :
 				{
-					"description" : "The Beacon provides you with an additional +1 crystal each day.",
-					"name" : "Beacon",
-					"produce": { "crystal": 1 }, 
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"name" : "Resource Silo",
 					"cost" :
 					{
 						"ore" : 5,
@@ -158,8 +157,8 @@
 				},
 				"blacksmith" :
 				{
-					"description" : "The Extractor provides your armies with Ballista.",
-					"name" : "Extractor",
+					"description" : "The Blacksmith provides your armies with Ballista.",
+					"name" : "Blacksmith",
 					"warMachine" : "ballista",
 					"cost" :
 					{
@@ -169,48 +168,88 @@
 				},
 				"special1" :
 				{
-					"description" : "The Nydus Canal increases the * of any visiting hero for next battle by +*.",
-					"name" : "Nydus Canal",
+					"description" : "The Nidus Channel allows the hero to move between castles without losing mana or movement points.",
+					"name" : "Nidus Channel",
 					"cost" : {
-						"gold" : 1000
+						"ore" : 5,
+						"wood" : 5,
+						"gold" : 5000
 					},
-					"requires" : [ "resourceSilo" ]
+					"type" : "castleGate",
+					"requires" : [ "citadel" ]
 				},
 				"special2" :
 				{
-					"description" : "The Sunken Colony *.",
+					"description" : "The Sunken Colony adds +2 attack to any garrison hero during an enemy siege.",
 					"name" : "Sunken Colony",
 					"cost" : {
-						"gems" : 5,
 						"gold" : 1000
 					},
-					"requires" : [ "mageGuild1" ]
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"val": 2
+						}
+					],
+					"requires" : [ "fort" ]
 				},
-                               "special3" :
+                "horde1" :
 				{
-					"name" : "Infestation Web",
-					"description" : "The Infestation Web *.",
-					"cost" :
-					{
-						"wood" : 20,
-						"gold" : 2000
-					}
-				},
-                "special4" :
-				{
-					"description" : "The Nest increases weekly production of * by * per week.",
+					"description" : "The Nest Increases Zerglings growth by +10 per week.",
 					"name" : "Nest",
 					"cost" :
 					{
-						"wood" : 20,
-						"gold" : 2000
+						"gold" : 1000
+					},
+					"requires" : [ "dwellingLvl1" ]
+				},
+                "horde1Upgr" :
+				{
+					"description" : "The Nest Increases Zerglings growth by +10 per week.",
+					"name" : "Nest",
+					"cost" :
+					{
+						"gold" : 1000
 					}
-					
+					"requires" : [ "horde1" ]
+				},
+                "special3" :
+				{
+					"name" : "Infestation Web",
+					"description" : "The Infestation Web Adds +1 to the defense of a hero visiting the city once per game.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+				"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "Infestation Web increases your attack skill by +1",
+								"primary" : { "attack" : 1 }
+							}
+						]
+					}
 				},
 				"grail" :
 				{
-					"description" : "grail.",
-					"name" : "Grail"
+					"description" : "Chrysalis Increases the weekly number of creatures spawned by 100%, adds 5000 gold per day, and increases the attack of each hero by +10.",
+					"name" : "Chrysalis"
+				    "bonuses" : [
+						{
+							"type" : "CREATURE_GROWTH_PERCENT",
+				            "val" : 50
+							"propagator" : "PLAYER"
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "attack",
+							"val" : 10,
+							"propagator": "PLAYER"
+						}
+					]
 				},
 				"dwellingLvl1" :
 				{
